@@ -17,7 +17,7 @@
                 <img src="../assets/donald-pill.png" alt="Donald-Pill" id="donald-pill">
                 <img src="../assets/grenade-pill.png" alt="Grenade-Pill" id="grenade-pill">
             </div>
-            <span>Save 20% off your first order.</span>
+            <span class="text__span4">Save 20% off your first order.</span>
         </section>
 
         <footer>
@@ -63,7 +63,8 @@ export default {
     }
 
     #powder {
-        width: 400px;
+        padding-top: 2rem;
+        width: 30%;
     }
 
     .section__explosive {
@@ -86,6 +87,9 @@ export default {
     }
 
     .images {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
         margin: 5rem 0;
     }
 
@@ -95,6 +99,10 @@ export default {
 
     .section__explosive span {
         font-size: 1.5rem;
+        /* font-weight: 600; */
+    }
+
+    .section__explosive .text__span4 {
         font-weight: 600;
     }
 
