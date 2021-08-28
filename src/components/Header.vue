@@ -102,6 +102,7 @@ $(document).ready(function(){
 
 		nav li a {
 			font-size: 1rem;
+			display: block;
 		}
 
 		nav li a:hover {
