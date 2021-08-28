@@ -5,12 +5,25 @@
             <span class="text__span1">Quality</span>
             <h1>In MyDrugs 2.0</h1>
             <span class="text__span2">Prices as low as 0.0013 BTC.</span>
+            <div class="images">
+                <img src="../assets/powder.png" alt="Pill">
+            </div>
         </section>
 
         <section class="section__explosive">
             <h1>Our Explosive new lineup.</h1>
             <span class="text__span3">For the best MDMA experience Ever.</span>
+            <div class="images">
+                <img src="../assets/donald-pill.png" alt="Donald-Pill" id="donald-pill">
+                <img src="../assets/grenade-pill.png" alt="Grenade-Pill" id="grenade-pill">
+            </div>
+            <span>Save 20% off your first order.</span>
         </section>
+
+        <footer>
+            <h2>The Red Heart</h2>
+            <span>Because we love you.</span>
+        </footer>
     </main>
 </template>
 
@@ -28,7 +41,7 @@ export default {
     }
 
     .section__present {
-        padding: 10rem 0;
+        padding: 10rem 0 0;
     }
 
     .section__present h1 {
@@ -51,8 +64,12 @@ export default {
 
     .section__explosive {
         width: 100%;
-        height: 500px;
+        padding: 2rem;
         background-color: #fff;
+        background-image: url(../assets/line.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 600px;
     }
 
     .section__explosive h1 {
@@ -61,6 +78,32 @@ export default {
     }
 
     .section__explosive .text__span3 {
+        font-size: 1.2rem;
+    }
+
+    .images {
+        margin: 5rem 0 10rem;
+    }
+
+    #donald-pill {
+        width: 150px;
+    } 
+
+    .section__explosive span {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    footer {
+        padding: 2rem 1rem;
+        color: #fff;
+    }
+
+    footer h2 {
+        font-size: 2.3rem;
+    }
+
+    footer span {
         font-size: 1.2rem;
     }
 </style>
