@@ -69,7 +69,8 @@ export default {
 
     .section__explosive {
         width: 100%;
-        padding: 2rem;
+        padding: 4rem 0 0;
+        height: 650px;
         background-color: #fff;
         background-image: url(../assets/line.png);
         background-repeat: no-repeat;
@@ -89,16 +90,17 @@ export default {
     .images {
         display: flex;
         justify-content: center;
+        align-items: center;
         flex-wrap: wrap;
-        margin: 5rem 0;
+        margin: 6rem 0 10rem;
     }
 
     #donald-pill {
-        width: 110px;
+        width: 120px;
     } 
 
     #grenade-pill {
-        width: 140px;
+        width: 150px;
     }
 
     .section__explosive span {
