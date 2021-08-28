@@ -86,7 +86,7 @@ export default {
     }
 
     .images {
-        margin: 5rem 0 10rem;
+        margin: 5rem 0;
     }
 
     #donald-pill {
