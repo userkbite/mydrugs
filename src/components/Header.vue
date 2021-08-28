@@ -64,7 +64,7 @@ $(document).ready(function(){
 	}
 
 	nav #icon {
-		font-size: 1.6rem;
+		font-size: 1.3rem;
 		color: #fff;
 		cursor: pointer; 
 		display: none;
@@ -74,6 +74,11 @@ $(document).ready(function(){
 		header {
 			padding: 40px 20px;
 		}
+
+		#logo {
+			width: 30px;
+		}
+
 		nav #icon {
 			display: block;
 		}
