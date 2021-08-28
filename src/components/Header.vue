@@ -3,9 +3,12 @@
 		<a href="/"><img src="../assets/logo.png" alt="Logo" id="logo"></a>
 		<nav>
 			<ul>
-				<li><a class="active" href="/">Shop</a></li>
-				<li><a href="/">Faq</a></li>
-				<li><a href="/">Safety</a></li>
+				<li><a class="active" href="/shop">Shop</a></li>
+				<li><a href="/faq">Faq</a></li>
+				<li><a href="/safety">Safety</a></li>
+				<li><a href="/forum">Forum</a></li>
+				<li><a href="/contact">Contact</a></li>
+				<li><a href="/login"><i class="fas fa-user-circle"></i></a></li>
 			</ul>
 			<label id="icon">
 				<i class="fas fa-bars"></i>
@@ -31,7 +34,7 @@ $(document).ready(function(){
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		padding: 40px 60px;
+		padding: 50px 60px;
 		height: 60px;
 		width: 100%;
 	}
@@ -53,8 +56,8 @@ $(document).ready(function(){
 		color: #fff;
 		padding: 5px 20px;
 		text-transform: uppercase;
-		font-weight: 500;
-		font-size: 1.3rem;
+		font-weight: 600;
+		font-size: 1.2rem;
 	}
 
 	nav li a:hover {
@@ -72,11 +75,11 @@ $(document).ready(function(){
 
 	@media (max-width: 909px) {
 		header {
-			padding: 40px 20px;
+			padding: 40px 30px;
 		}
 
 		#logo {
-			width: 30px;
+			width: 40px;
 		}
 
 		nav #icon {
@@ -101,7 +104,7 @@ $(document).ready(function(){
 		}
 
 		nav li a {
-			font-size: 1rem;
+			font-size: 1.2rem;
 			display: block;
 		}
 
