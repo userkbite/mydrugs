@@ -96,7 +96,7 @@ $(document).ready(function(){
 		}
 
 		nav li {
-			margin: 50px 0;
+			margin: 30px 0;
 			line-height: 30px;
 		}
 
