@@ -100,6 +100,10 @@ $(document).ready(function(){
 			line-height: 30px;
 		}
 
+		nav li a {
+			font-size: 1rem;
+		}
+
 		nav li a:hover {
 			border: none;
 			background-color: transparent;
