@@ -69,8 +69,7 @@ export default {
 
     .section__explosive {
         width: 100%;
-        padding: 4rem 0 0;
-        height: 650px;
+        padding: 2rem 0;
         background-color: #fff;
         background-image: url(../assets/line.png);
         background-repeat: no-repeat;
@@ -79,7 +78,7 @@ export default {
     }
 
     .section__explosive h1 {
-        margin-top: 2rem;
+        /* margin-top: 2rem; */
         font-size: 2.3rem;
     }
 
@@ -92,7 +91,7 @@ export default {
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        margin: 6rem 0 10rem;
+        margin: 10rem 0;
     }
 
     #donald-pill {
