@@ -5,8 +5,8 @@
             <span class="text__span1">Quality</span>
             <h1>In MyDrugs 2.0</h1>
             <span class="text__span2">Prices as low as 0.0013 BTC.</span>
-            <div class="images">
-                <img src="../assets/powder.png" alt="Pill">
+            <div>
+                <img src="../assets/powder.png" alt="Pill" id="powder">
             </div>
         </section>
 
@@ -41,7 +41,7 @@ export default {
     }
 
     .section__present {
-        padding: 10rem 0 0;
+        padding: 10rem 0 5rem;
     }
 
     .section__present h1 {
@@ -60,6 +60,10 @@ export default {
 
     .section__present .text__span2 {
         color: #fff;
+    }
+
+    #powder {
+        width: 400px;
     }
 
     .section__explosive {
