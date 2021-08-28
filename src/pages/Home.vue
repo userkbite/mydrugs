@@ -30,7 +30,7 @@ export default {
     main section span {
         text-transform: uppercase;
         font-size: 2.2rem;
-        padding: 5px 8px;
+        padding: 5px;
         background-color: #4ec7f3;
     }
 </style>
