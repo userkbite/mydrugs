@@ -64,7 +64,7 @@ export default {
 
     #powder {
         padding-top: 2rem;
-        width: 30%;
+        width: 400px;
     }
 
     .section__explosive {
@@ -94,8 +94,12 @@ export default {
     }
 
     #donald-pill {
-        width: 150px;
+        width: 110px;
     } 
+
+    #grenade-pill {
+        width: 140px;
+    }
 
     .section__explosive span {
         font-size: 1.5rem;
