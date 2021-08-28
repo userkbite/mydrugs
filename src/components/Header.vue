@@ -71,6 +71,9 @@ $(document).ready(function(){
 	}
 
 	@media (max-width: 909px) {
+		header {
+			padding: 40px 20px;
+		}
 		nav #icon {
 			display: block;
 		}
