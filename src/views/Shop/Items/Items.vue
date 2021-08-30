@@ -10,7 +10,7 @@
                     <div class="round">+</div>
                 </div>
             <a href="/LOL" class="cart__button">Add to Cart</a>
-            <a href="#" class="check__button">Check Out</a>
+            <a href="/LOL" class="check__button">Check Out</a>
         </div>
         <div class="card">
             <img src="/assets/grenade-pill.png" class="icon">
@@ -21,8 +21,8 @@
                     <h2>1</h2>
                     <div class="round">+</div>
                 </div>
-            <a href="#" class="cart__button">Add to Cart</a>
-            <a href="#" class="check__button">Check Out</a>
+            <a href="/LOL" class="cart__button">Add to Cart</a>
+            <a href="/LOL" class="check__button">Check Out</a>
         </div>
         <div class="card">
             <img src="/assets/green-pill.png" class="icon">
@@ -33,8 +33,8 @@
                 <h2>1</h2>
                 <div class="round">+</div>
             </div>
-            <a href="#" class="cart__button">Add to Cart</a>
-            <a href="#" class="check__button">Check Out</a>
+            <a href="/LOL" class="cart__button">Add to Cart</a>
+            <a href="/LOL" class="check__button">Check Out</a>
         </div>
         <div class="card">
             <img src="/assets/purple-pill.png" class="icon">
@@ -45,8 +45,8 @@
                 <h2>1</h2>
                 <div class="round">+</div>
             </div>
-            <a href="#" class="cart__button">Add to Cart</a>
-            <a href="#" class="check__button">Check Out</a>
+            <a href="/LOL" class="cart__button">Add to Cart</a>
+            <a href="/LOL" class="check__button">Check Out</a>
         </div>
         <div class="card">
             <img src="/assets/blue-pill.png" class="icon">
@@ -57,8 +57,8 @@
                 <h2>1</h2>
                 <div class="round">+</div>
             </div>
-            <a href="#" class="cart__button">Add to Cart</a>
-            <a href="#" class="check__button">Check Out</a>
+            <a href="/LOL" class="cart__button">Add to Cart</a>
+            <a href="/LOL" class="check__button">Check Out</a>
         </div>
         <div class="card">
             <img src="/assets/red-pill.png" class="icon">
@@ -69,8 +69,8 @@
                 <h2>1</h2>
                 <div class="round">+</div>
             </div>
-            <a href="#" class="cart__button">Add to Cart</a>
-            <a href="#" class="check__button">Check Out</a>
+            <a href="/LOL" class="cart__button">Add to Cart</a>
+            <a href="/LOL" class="check__button">Check Out</a>
         </div>
         <div class="card">
             <img src="/assets/yellow-pill.png" class="icon">
@@ -81,8 +81,8 @@
                 <h2>1</h2>
                 <div class="round">+</div>
             </div>
-            <a href="#" class="cart__button">Add to Cart</a>
-            <a href="#" class="check__button">Check Out</a>
+            <a href="/LOL" class="cart__button">Add to Cart</a>
+            <a href="/LOL" class="check__button">Check Out</a>
         </div>
         <div class="card">
             <img src="/assets/pink-pill.png" class="icon">
@@ -93,8 +93,8 @@
                 <h2>1</h2>
                 <div class="round">+</div>
             </div>
-            <a href="#" class="cart__button">Add to Cart</a>
-            <a href="#" class="check__button">Check Out</a>
+            <a href="/LOL" class="cart__button">Add to Cart</a>
+            <a href="/LOL" class="check__button">Check Out</a>
         </div>
         <div class="card">
             <img src="/assets/100.png" class="icon">
@@ -105,8 +105,8 @@
                 <h2>1</h2>
                 <div class="round">+</div>
             </div>
-            <a href="#" class="cart__button">Add to Cart</a>
-            <a href="#" class="check__button">Check Out</a>
+            <a href="/LOL" class="cart__button">Add to Cart</a>
+            <a href="/LOL" class="check__button">Check Out</a>
             </div>
     </section>
 </template>
