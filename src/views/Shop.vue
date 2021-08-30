@@ -14,11 +14,11 @@
                     <h2>1</h2>
                     <div class="round">+</div>
                 </div>
-                <a href="#" class="cart__button">Add to Cart</a>
+                <a href="/LOL" class="cart__button">Add to Cart</a>
                 <a href="#" class="check__button">Check Out</a>
             </div>
             <div class="card">
-                <img src="../assets/grenade-pill.png" id="grenade-pill">
+                <img src="../assets/grenade-pill.png" class="icon">
                 <h3>Big Boomer</h3>
                 <span class="text__green">In Stock</span>
                 <div class="cart">
@@ -29,12 +29,90 @@
                 <a href="#" class="cart__button">Add to Cart</a>
                 <a href="#" class="check__button">Check Out</a>
             </div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card break"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
+            <div class="card">
+                <img src="../assets/green-pill.png" class="icon">
+                <h3>Stable Genius</h3>
+                <span class="text__green">In Stock</span>
+                <div class="cart">
+                    <div class="round">-</div>
+                    <h2>1</h2>
+                    <div class="round">+</div>
+                </div>
+                <a href="#" class="cart__button">Add to Cart</a>
+                <a href="#" class="check__button">Check Out</a>
+            </div>
+            <div class="card">
+                <img src="../assets/purple-pill.png" class="icon">
+                <h3>Stable Genius</h3>
+                <span class="text__green">In Stock</span>
+                <div class="cart">
+                    <div class="round">-</div>
+                    <h2>1</h2>
+                    <div class="round">+</div>
+                </div>
+                <a href="#" class="cart__button">Add to Cart</a>
+                <a href="#" class="check__button">Check Out</a>
+            </div>
+            <div class="card break">
+                <img src="../assets/blue-pill.png" class="icon">
+                <h3>Stable Genius</h3>
+                <span class="text__green">In Stock</span>
+                <div class="cart">
+                    <div class="round">-</div>
+                    <h2>1</h2>
+                    <div class="round">+</div>
+                </div>
+                <a href="#" class="cart__button">Add to Cart</a>
+                <a href="#" class="check__button">Check Out</a>
+            </div>
+            <div class="card">
+                <img src="../assets/red-pill.png" class="icon">
+                <h3>Stable Genius</h3>
+                <span class="text__green">In Stock</span>
+                <div class="cart">
+                    <div class="round">-</div>
+                    <h2>1</h2>
+                    <div class="round">+</div>
+                </div>
+                <a href="#" class="cart__button">Add to Cart</a>
+                <a href="#" class="check__button">Check Out</a>
+            </div>
+            <div class="card">
+                <img src="../assets/yellow-pill.png" class="icon">
+                <h3>Stable Genius</h3>
+                <span class="text__green">In Stock</span>
+                <div class="cart">
+                    <div class="round">-</div>
+                    <h2>1</h2>
+                    <div class="round">+</div>
+                </div>
+                <a href="#" class="cart__button">Add to Cart</a>
+                <a href="#" class="check__button">Check Out</a>
+            </div>
+            <div class="card">
+                <img src="../assets/pink-pill.png" class="icon">
+                <h3>Stable Genius</h3>
+                <span class="text__green">In Stock</span>
+                <div class="cart">
+                    <div class="round">-</div>
+                    <h2>1</h2>
+                    <div class="round">+</div>
+                </div>
+                <a href="#" class="cart__button">Add to Cart</a>
+                <a href="#" class="check__button">Check Out</a>
+            </div>
+            <div class="card">
+                <img src="../assets/100.png" class="icon">
+                <h3>Stable Genius</h3>
+                <span class="text__green">In Stock</span>
+                <div class="cart">
+                    <div class="round">-</div>
+                    <h2>1</h2>
+                    <div class="round">+</div>
+                </div>
+                <a href="#" class="cart__button">Add to Cart</a>
+                <a href="#" class="check__button">Check Out</a>
+            </div>
         </section>
     </main>
 </template>
@@ -98,9 +176,9 @@ export default {
         border-radius: 1rem;
     }
 
-    .section__items .break {
-        /* margin-left: 0; */
-    }
+    /* .section__items .break {
+        margin-left: 0;
+    } */
 
     #donald-pill {
         margin-top: 30px;
@@ -108,7 +186,7 @@ export default {
         /* height: 120px; */
     }
 
-    #grenade-pill {
+    .icon {
         margin-top: 30px;
         width: 155px;
     }

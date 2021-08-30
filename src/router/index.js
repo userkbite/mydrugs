@@ -3,6 +3,7 @@ import Router from 'vue-router'
 
 import Home from '@/views/Home'
 import Shop from '@/views/Shop'
+import Lol from '@/views/Lol'
 
 Vue.use(Router)
 
@@ -14,6 +15,10 @@ const routes = [
     {
         path: '/shop',
         component: Shop
+    },
+    {
+        path: '/LOL',
+        component: Lol
     }
 ]
 
