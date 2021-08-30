@@ -27,6 +27,7 @@ export default {
 <style scoped>
     main {
         height: 100vh;
+        padding: 0 2rem;
         justify-content: center;
         align-items: center;
     }
@@ -36,8 +37,8 @@ export default {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 500px;
-        height: 550px;
+        width: 450px;
+        /* height: 500px; */
         background-color: #000;
         border: solid purple;
         border-radius: 2rem;
