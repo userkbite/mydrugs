@@ -3,7 +3,7 @@
 		<a href="/"><img src="/assets/logo.png" alt="Logo" id="logo"></a>
 		<nav>
 			<ul :class="{active:menuActive}">
-				<li><a class="active" href="/shop">Shop</a></li>
+				<li><a href="/shop">Shop</a></li>
 				<li><a href="/faq">Faq</a></li>
 				<li><a href="/safety">Safety</a></li>
 				<li><a href="/forum">Forum</a></li>
@@ -44,14 +44,6 @@ export default {
 	}
 }
 
-// const icon = document.getElementById('icon')
-// const list = docuemnt.
-
-// $(document).ready(function(){
-// 	$('#icon').click(function(){
-// 		$('ul').toggleClass('active');
-// 	})
-// })
 </script>
 
 <style scoped>
@@ -82,10 +74,16 @@ export default {
 		padding: 5px 20px;
 		text-transform: uppercase;
 		font-weight: 600;
-		font-size: 1.2rem;
+		font-size: 1.1rem;
 	}
 
 	nav li a:hover {
+		border-radius: 0.25rem;
+		color: #000;
+		background-color: #fff;
+	}
+
+	nav li a.active {
 		border-radius: 0.25rem;
 		color: #000;
 		background-color: #fff;

@@ -1,6 +1,6 @@
 <template>
     <section class="section__items">
-        <div class="card break">
+        <div class="card">
             <img src="/assets/donald-pill.png" id="donald-pill">
             <h3>Stable Genius</h3>
             <span class="text__green">In Stock</span>
@@ -26,7 +26,7 @@
         </div>
         <div class="card">
             <img src="/assets/green-pill.png" class="icon">
-            <h3>Stable Genius</h3>
+            <h3>Green Snowflake</h3>
             <span class="text__green">In Stock</span>
             <div class="cart">
                 <div class="round">-</div>
@@ -38,7 +38,7 @@
         </div>
         <div class="card">
             <img src="/assets/purple-pill.png" class="icon">
-            <h3>Stable Genius</h3>
+            <h3>Purple Flower</h3>
             <span class="text__green">In Stock</span>
             <div class="cart">
                 <div class="round">-</div>
@@ -48,9 +48,9 @@
             <a href="#" class="cart__button">Add to Cart</a>
             <a href="#" class="check__button">Check Out</a>
         </div>
-        <div class="card break">
+        <div class="card">
             <img src="/assets/blue-pill.png" class="icon">
-            <h3>Stable Genius</h3>
+            <h3>Blue Clover</h3>
             <span class="text__green">In Stock</span>
             <div class="cart">
                 <div class="round">-</div>
@@ -62,7 +62,7 @@
         </div>
         <div class="card">
             <img src="/assets/red-pill.png" class="icon">
-            <h3>Stable Genius</h3>
+            <h3>Red Pill</h3>
             <span class="text__green">In Stock</span>
             <div class="cart">
                 <div class="round">-</div>
@@ -74,7 +74,7 @@
         </div>
         <div class="card">
             <img src="/assets/yellow-pill.png" class="icon">
-            <h3>Stable Genius</h3>
+            <h3>Confused</h3>
             <span class="text__green">In Stock</span>
             <div class="cart">
                 <div class="round">-</div>
@@ -86,7 +86,7 @@
         </div>
         <div class="card">
             <img src="/assets/pink-pill.png" class="icon">
-            <h3>Stable Genius</h3>
+            <h3>Smiling Devil</h3>
             <span class="text__green">In Stock</span>
             <div class="cart">
                 <div class="round">-</div>
@@ -98,7 +98,7 @@
         </div>
         <div class="card">
             <img src="/assets/100.png" class="icon">
-            <h3>Stable Genius</h3>
+            <h3>#100</h3>
             <span class="text__green">In Stock</span>
             <div class="cart">
                 <div class="round">-</div>
@@ -122,7 +122,7 @@ export default {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 10rem 0 5rem;
+        margin: 3rem 0 5rem;
         flex-wrap: wrap;
     }
 
@@ -139,10 +139,6 @@ export default {
         margin-bottom: 3rem;
         border-radius: 1rem;
     }
-
-    /* .section__items .break {
-        margin-left: 0;
-    } */
 
     #donald-pill {
         margin-top: 30px;
