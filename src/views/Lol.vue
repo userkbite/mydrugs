@@ -38,7 +38,7 @@ export default {
         flex-direction: column;
         align-items: center;
         width: 450px;
-        /* height: 500px; */
+        /* height: 550px; */
         background-color: #000;
         border: solid purple;
         border-radius: 2rem;

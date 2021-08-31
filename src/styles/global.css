@@ -10,6 +10,7 @@
 html,
 body {
   background-color: #0e0e0e;
+  cursor: url(/assets/mdcursor.png), auto;
 }
 
 a {
