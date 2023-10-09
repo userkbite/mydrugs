@@ -2,6 +2,10 @@
   "name": "mydrugs",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "npm": ">=9.0.0 <10.0.0",
+    "node": ">=17.0.0 <18.0.0"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
