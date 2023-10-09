@@ -3,12 +3,12 @@
 		<a href="/"><img src="/assets/logo.png" alt="Logo" id="logo"></a>
 		<nav>
 			<ul :class="{active:menuActive}">
-				<li><a href="/shop">Shop</a></li>
-				<li><a href="/faq">Faq</a></li>
-				<li><a href="/safety">Safety</a></li>
-				<li><a href="/forum">Forum</a></li>
-				<li><a href="/contact">Contact</a></li>
-				<li><a href="/login"><i class="fas fa-user-circle"></i></a></li>
+				<li><router-link to="/shop">Shop</router-link></li>
+				<li><router-link to="/faq">Faq</router-link></li>
+				<li><router-link to="/safety">Safety</router-link></li>
+				<li><router-link to="/forum">Forum</router-link></li>
+				<li><router-link to="/contact">Contact</router-link></li>
+				<li><router-link to="/login"><i class="fas fa-user-circle"></i></router-link></li>
 			</ul>
 			<label id="icon" @click="openMenu" v-if="btnOpen">
 				<i class="fas fa-bars"></i>
